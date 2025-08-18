@@ -1,0 +1,15 @@
+html {
+  font-size: 1vw;
+}
+
+input[type="text"]{
+  max-width: 40vw;
+}
+
+textarea {
+  min-height: 8vh;
+}
+
+.copy p {
+  font-size: 3rem;
+}

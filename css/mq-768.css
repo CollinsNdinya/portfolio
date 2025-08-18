@@ -1,0 +1,252 @@
+@media (max-width: 768px) {
+    html {
+      font-size: 1vw;
+    }
+
+    #atf {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 2px solid red; */
+        /* justify-content: center; */
+    }
+
+    #logo {
+        font-size: 4.5rem;
+    }
+
+    .nav a {
+        display: none;
+    }
+
+    .topnav {
+      display: flex;
+      margin-right: 1rem;
+      font-size: 1.5rem;
+      color: black;
+      font-weight: bolder;
+      /* border: 2px solid red; */
+    }
+
+    .mobilenavs {
+        position: fixed;
+        right: -120rem;
+        width: 100%;
+
+        margin-top: 6rem;
+
+        transition-property: all;
+        transition-timing-function: ease;
+        transition-duration: .9s;
+
+        background-color: whitesmoke;
+        background-color: #d3d3d3;
+        /* border: 2px solid blue; */
+
+        :hover {
+            background-color: #e7e6e6;
+        }
+    }
+
+    .mobilenavs a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 4rem;
+        font-weight: bolder;
+
+        padding: 1rem;
+        margin-bottom: 6rem;
+        
+        /* border: 2px solid blue; */
+    }
+
+    input[type="checkbox"] {
+        display: none;
+     }
+
+    input[type=""] {
+        display: block;
+    }
+
+    .icon-menu {
+        width: 4.5rem;
+        height: 5.5rem;
+        margin-right: 2rem;
+        fill: black;
+        /* border: 2px solid red; */
+        :hover {
+            fill: #999;
+        }
+    }
+
+    #formsubmit {
+        width: 20rem;
+        height: 6rem;
+
+        font-size: 4rem;
+        font-weight: 600;
+        
+        margin: 0 1rem 1.3rem 1rem;
+        padding: 1em 2em;
+        border-radius: 6px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition-property: all;
+        transition-timing-function: ease;
+        transition-duration: 1s;
+    }
+
+    input[type="checkbox"]:checked + .mobilenavs {
+        /* toggle */
+        right: 0rem;
+    }
+
+    .herosection {
+        width: 95%;
+
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+
+        /* margin-top: 40rem; */
+    }
+
+    .photo {
+        height: 55rem ;
+        width: 55rem;
+        margin-bottom: 4rem;
+    }
+
+    #headline {
+        font-size: 5.6rem;
+    }
+
+    .subheadline {
+        font-size: 6.6rem;
+        /* padding-top: 10rem; */
+    }
+
+    #span1 {
+        font-size: 8rem;
+    }
+
+    .socials {
+        max-width: 50%;
+    }
+    
+    .icon {
+        margin-right: 5.5rem;
+    }
+
+    .icon-fb {
+        height: 8rem;
+        align-self: center;
+    }
+
+    .copy p {
+        font-size: 2.5rem;
+    }
+
+    .about p {
+        font-size: 4.3rem;
+    }
+
+    #about {
+        font-size: 8rem;
+    }
+
+    #contactus {
+        font-size: 4rem;
+        color: brown
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+
+    .s-icon {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    #gmail, #number {
+        font-size: 4rem;
+    }
+
+
+    /*form styling*/
+    .ffrm {
+        display: none;
+    }
+
+    #legend {
+        font-size: 2vh;
+        font-weight: bold;
+        color : blue;
+    }
+
+    .ffrm2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid green; */
+    }
+
+    form {
+        width: 90vw;
+        height: 48.5vh;
+        justify-content:space-between;
+        /* margin-top: 0; */
+        /* border: 2px solid red; */
+    }
+
+    label, legend {
+        font-size: 3rem;
+    }
+
+    legend {
+        align-self: center;
+        margin-top: 2.5rem;
+    }
+
+    textarea {
+        height: 8vh;
+    }
+
+    #submit {
+        margin-bottom: 3rem ;
+    }
+
+    .name {
+        max-width: 100%;
+        height: 5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-bottom: 7rem;
+        margin-left: 0;
+        /* align-items: center; */
+        /* border: 2px solid red; */
+    }
+
+
+    input[type="text"],input[type="email"],input[type="tel"] {
+        width: 100%;
+        height: 4vh;
+        margin-right: 4rem;
+    }
+
+    .ffrm2 {
+        width : 100vw;
+    }
+
+
+}

@@ -1,8 +1,12 @@
-html, body, div {
+html, body, div, section, h2, p,legend, input, textarea, section , fieldset, section, h2, h6, svg, form, footer{
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
+}
+
+.topnav {
+    display: none;
 }
 
 html {
@@ -10,72 +14,79 @@ html {
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: rgba(38, 38, 41, 0.788); */
-    /* background-color: #3d3d3d; */
-    background-color: #7091e6;
-}
 
-#logo {
-    font-size: 3rem;
-    color: whitesmoke;
-    text-decoration: none;
-    margin-left: 6rem;
-    flex-grow: 1;
-    flex-basis: 0;
-}
-
-#logo:hover {
-    color: #104fc5
-}
-
-ul a {
-    margin: 2rem;
-    color: #000000;
-    padding: .5rem;
-    font-size: 1.2rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    text-decoration: none;
-    /* border: 2px solid red; */
-}
-
-a:hover {
-    color: aqua;
-}
-
-li {
-    list-style: none;
+    background-attachment: fixed;
+    background-color: whitesmoke;
 }
 
 #atf {
     width: 100%;
     height: 100vh;
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: space-around; */
     align-items: center;
-    /* border: 1px solid red; */
-    margin-top: 90px;
-    /* position: -webkit-sticky; */
+    /* border: 2px solid red; */
 }
 
 header {
+    height: 90px;
     width: 100%;
+
     position: fixed;
     top: 0;
     left: 0;
-    height: 90px;
+    
     color: gray;
-    border-bottom: 1px solid rgba(27, 6, 78, 0.822);
-    /* background-color: #00ffff; */
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    border-bottom: 1px solid  rgb(81, 81, 187);
+    /* border: 2px solid blue; */
+}
+
+#logo {
+    color: #104fc5;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: none;
+    
+    flex-grow: 1;
+    flex-basis: 0;
+
+    margin-left: 4rem;
+}
+
+ul a {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 800;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+
+    padding: .5rem;
+    margin: 1rem;
     /* border: 2px solid red; */
+}
+
+ul a:hover {
+    color: #104fc5;
+    border-radius: 5px;
+}
+
+li {
+    list-style: none;
 }
 
 .nav {
@@ -83,102 +94,154 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* margin-right: 2rem; */
-    /* flex-grow: 4;
-    flex-basis: 0; */
-    /* height: 1px; */
 }
 
 .nav li a {
     height: 10%;
     flex-grow: 4;
-
     letter-spacing: 4px;
-    /* color: red; */
+    /* border: 2px solid blue; */
+}
+
+.icon {
     /* border: 2px solid red; */
+    padding-bottom: 10px;
+    :hover {
+        fill: blue;
+        cursor: pointer;
+    }
+}
+
+.photo {
+    width: 29rem;
+    height: 18rem;
+
+    background-color: rgb(38, 0, 0);
+    background-image:url(../imgs/one.jpg) ;
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 50%;
+
+    align-self: center;
+    opacity: .7;
+}
+
+.homepage {
+    /* width: 80%; */
+    height: 65vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    /* border: 4px solid blue; */
+}
+
+.herosection {
+
+    /* border: 2px solid yellow; */
+    display: flex ;
+}
+
+#headline {
+    font-family: "Libre Baskerville", serif;
+    font-family: "Roboto", serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.subheadline {
+
+    align-content: center;
+
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 300;
+
+    margin-top: 3rem;
+    margin-left: 6rem;
+    /* border: 2px solid red; */
+}
+
+#span1 {
+    color: #7091e6;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7091e6;
+    letter-spacing: 2px;
+    font-size: 1rem;
 }
 
 .socials {
     display: flex;
-    flex-direction: column;
-    /* border: 2px solid red; */
-    width: 1.5%;
-    height: 55vh;
-    padding: 2px;
-    margin-left: 12px;
+    max-width: 30%;
+    height: 6.2vh;
+    padding: 1.7px;
+    margin-top: 3vh;
     /* background-color: blue; */
-}
-
-.icon:hover{
-    fill: blue;
-    cursor: pointer;
-}
-
-.icon-fb {
-    height: 2rem;
-    margin-top: .9rem ;
-}
-
-.profile {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 8rem;
     /* border: 2px solid red; */
 }
 
-
-
-.prphoto {
-    width: 15rem;
-    height: 15rem;
-    background-color: black;
-    background-image: url(../imgs/Snapchat-1954932238.jpg);
-    background-size: cover;
-    border-radius: 50%;
+.copy {
+    margin-top: 1.5vh;
+    margin-bottom: 1.7vh ;
 }
 
-.intro {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid red; */
+#cta {
+    font-weight: bolder;
+    color: white;
+    background-color:#ff0021;
+    padding: 1em;
+    display: inline-block;
+    /* margin-bottom: 60%; */
+    border-radius: 4px;
+    margin-top: 5rem ; 
 }
 
-div p {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-div p:hover {
-    color: whitesmoke;
-    text-transform: uppercase;
-}
-
-h3 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 2px;
+#cta:hover {
+    background-color: #A52A2A;
 }
 
 footer {
+    width: 100%;
+    height: 13vh;
+    position:fixed ;
+    bottom: 0;
+    left:0;
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    background-color: rgb(16, 79, 197);
+
+    background-color: dodgerblue;
+
+    /* display: none; */
 }
 
-@media only screen and (max-width: 500px) {
-    html {
-      font-size: 1vw;
+
+@media (width:1024px) {
+    form {
+        height: 80vh;
+        border: 2px solid yellow;
     }
-  }
+
+    input {
+        height: 4rem;
+    }
+
+    label {
+        font-size: 9rem;
+    }
+}
 
 
 

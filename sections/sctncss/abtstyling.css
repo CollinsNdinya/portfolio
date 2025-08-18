@@ -1,0 +1,22 @@
+
+#atf {
+    justify-content: center;
+} 
+
+.about {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    /* border: 2px solid red; */
+}
+
+#about {
+    font-size: 3rem;
+}
+
+.about p {
+    font-size: 1.5rem;
+}

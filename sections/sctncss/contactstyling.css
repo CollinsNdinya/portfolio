@@ -1,0 +1,186 @@
+
+html {
+    color: #28282B;
+    font-size: 1.25vw;
+}
+
+#atf {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    margin-left: .2rem;
+    /* border: 3px solid red; */
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+    margin-left: 2rem;
+}
+
+#contactinfo {
+    font-size: 4rem;
+    color: brown;
+}
+
+.icon-email {
+    width: 10%;
+    height: 35vh;
+    padding-right: .4rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.icon-phone {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10%;
+    height: 6vh;
+    padding-right: .4rem;
+}
+
+#gmail {
+    width: 80%;
+    font-size: .85rem;
+    padding: 2rem;
+    /* margin-right: 2rem; */
+}
+
+#number {
+    width: 36%;
+    font-size: .85rem;
+    padding: 2rem;
+}
+
+.mailinfo {
+    height: 8vh;
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+
+.phonenoinfo {
+    height: 8vh;
+
+    display: flex;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+
+.s-icon {
+    fill: #28282B;
+}
+
+.ffrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 6px; */
+}
+
+form {
+    /* border: 1px solid #999; */
+    min-width: 25rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 6px;
+    border: 1px solid #fff;
+    box-shadow: 0px 10px 20px -18px;
+}
+
+legend {
+    color: #999;
+    font-size: 1.25rem;
+    padding: 0 .25rem;
+}
+
+form div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: .1rem;
+    margin-left: 3rem;
+    margin-right: 1.5rem;
+}
+
+form div, legend {
+    margin-left: 1rem;
+}
+
+input {
+    padding: .5em;
+    border-radius: 3px;
+    border: 1px solid #999;
+    border-radius: 9px;
+    box-shadow: 0px 10px 20px -18px;
+}
+
+label {
+    font-size: .8rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+form div a {
+    font-size: 2rem;
+    font-weight: bold;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+
+    padding: 1rem 2rem;
+    background-color: #7091e6;
+    border-radius: 10px;
+}
+
+textarea {
+    /* min-height: 3rem; */
+    max-width: 100%;
+    
+    padding: .5em ;
+    border: 1px solid #999;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px -18px;
+    resize: none;
+}
+
+#formsubmit {
+    width: 5rem;
+    height: 2rem;
+
+    font-size: 1rem;
+
+    margin: 1rem 1.3rem ;
+    padding: .5em 1em;
+    border-radius: 6px;
+    border-color: none;
+    background-color: dodgerblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formsubmit:hover {
+    background-color: #D3D3D3;
+}
+
+
+
+
+
