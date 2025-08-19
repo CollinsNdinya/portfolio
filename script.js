@@ -52,13 +52,3 @@ fbsvg.addEventListener('click', () => {
   window.open(url, '_blank');
 });
 
-const url = 'https://sv443.net/jokeapi/v2/joke/Any'
-
-async function getData() {
-  const response = await fetch(url)
-  const data = await response.json()
-  console.log(data)
-}
-
-getData()
-
