@@ -1,9 +1,10 @@
 @media only screen and (min-width: 1280px) {
     #atf {
-        height: 95vh;
+        /* height: 95vh; */
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
+        margin-top: 15vh;
         /* align-items: center; */
     }
 
