@@ -18,17 +18,13 @@
         align-items: center;
     }
 
-    .photo {
-        width: 48rem;
-        height: 20rem;
-    }
 
     #headline {
-        font-size: 5rem ;
+        font-size: 3rem ;
     }
 
     .subheadline {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .contact {

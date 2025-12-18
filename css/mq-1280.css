@@ -8,15 +8,14 @@
         /* align-items: center; */
     }
 
+    /* #headline {
+        font-size: 7rem ;
+    } */
+
     .homepage {
-        width: 80%;
+        max-width: 80%;
 
         flex-direction: column;
-    }
-
-    .photo {
-        width: 22rem;
-        height: 15rem;
     }
 
     .contactpage {
