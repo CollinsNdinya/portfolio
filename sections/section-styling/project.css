@@ -1,0 +1,21 @@
+#atf {
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* border: 2px solid red */
+}
+.projects {
+    width: 50vw;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;              
+    align-items: center;
+
+    /* border: 2px solid red; */
+}
+
+.projects h2, marquee {
+    color: var(--card-bg);
+}

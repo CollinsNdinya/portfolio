@@ -18,6 +18,10 @@
         flex-direction: column;
     }
 
+    .hero-container {
+        max-width: 1400px;
+    }
+
     .contactpage {
         display: flex;
     }
