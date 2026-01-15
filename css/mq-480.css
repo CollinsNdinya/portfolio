@@ -1,6 +1,146 @@
 html {
-  font-size: 1vw;
+  font-size: 100%;
 }
+
+header {
+  height: 70px;
+}
+
+#homepage-atf {
+  height: 100vh; 
+}
+
+/* Hero section */
+.hero-content h1 {
+  font-size: 8rem;
+}
+
+.hero-content p {
+  font-size: 4.5rem;
+}
+
+.btn.primary {
+  font-size: 4rem;
+}
+
+.btn.secondary {
+  font-size: 4rem;
+}
+
+.mockup-card.small {
+  margin-right: 0rem;
+  /* border: 2px solid red; */
+}
+
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}
+
+.btn {
+  /* width: 100%; */
+  text-align: center;
+  font-size: clamp(1rem, 2vw, 1.1rem);
+}
+
+
+#cards {
+  z-index: -99999;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+
+}
+
+.cards {
+  width: 90%;
+}
+
+.our_services, .why-container h2 {
+  font-size: 5rem;
+}
+
+.our-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Top p {
+  font-size: 4rem;
+  margin-left: 6rem;
+}
+
+.Top h3 {
+  font-size: 6rem;
+  margin-left: 4rem;
+}
+
+.service-desc {
+  font-size: 4rem;
+}
+
+.service-list li {
+  font-size: 4rem;
+}
+
+.why-intro {
+  font-size: 4rem;
+}
+
+.why-card h3 {
+  font-size: 6rem;
+}
+
+.why-card p {
+  font-size: 4rem;
+}
+
+/* About */
+.atf {
+  border: 2px solid red;
+}
+
+.about {
+  margin-top: 25rem;
+}
+
+footer {
+  /* border: 2px solid red; */
+  height: 24vh;
+}
+
+/* services */
+.our-services {
+  margin-top: 20rem;
+}
+
+.our-services h3 {
+  font-size: 6rem;
+}
+
+.services-sub {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.cards {
+  margin-bottom: 5rem;
+}
+
+/* form */
+
+.contactbody{
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 20rem;
+}
+
 
 input[type="text"]{
   max-width: 40vw;
@@ -10,6 +150,7 @@ textarea {
   min-height: 8vh;
 }
 
-.copy p {
-  font-size: 3rem;
+#Copyright {
+  font-size: 3.5rem;
 }
+

@@ -7,10 +7,7 @@
         margin-top: 15vh;
         /* align-items: center; */
     }
-
-    /* #headline {
-        font-size: 7rem ;
-    } */
+        
 
     .homepage {
         max-width: 80%;
@@ -22,8 +19,21 @@
         max-width: 1400px;
     }
 
+    .contact {
+        max-width: 100vw;
+        min-height: 70vh;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
     .contactpage {
         display: flex;
+    }
+
+    .contactinfo {
+        justify-content: center;
+        /* border: 2px solid red; */
     }
 
     #contactinfo {

@@ -64,50 +64,26 @@
         </div>
     </header>
 
-    <div class="contact">
-        <div class="contactinfo">
-            <h2 id="contactinfo">Contact Info</h2>
-            <div class="mailinfo">
-                <svg class="s-icon icon-email"><use xlink:href="#mail"></use></svg>
-                <h6 id="gmail">collinsonyango635@gmail.com</h6>
-            </div>
-            <div class="phonenoinfo">
-                <svg class="s-icon icon-phone"><use xlink:href="#phone"></use></svg>
-                <h6 id="number">0790551037
+
+    <div class="contactbody">
+        <div class="contact">
+            <div class="contactinfo">
+                <h2 id="contactinfo">Contact Info</h2>
+                <div class="mailinfo">
+                    <svg class="s-icon icon-email"><use xlink:href="#mail"></use></svg>
+                    <h6 id="gmail">collinsonyango635@gmail.com</h6>
+                </div>
+                <div class="phonenoinfo">
+                    <svg class="s-icon icon-phone"><use xlink:href="#phone"></use></svg>
+                    <h6 id="number">0790551037
+                </div>
             </div>
         </div>
-    </div>
-    <div class="ffrm">
-        <form id="form" action="https://formspree.io/f/xrblyeba" method="post">
-            <legend>Contact Us</legend>
-            <div>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname">
-            </div>
-            <div>
-                <label for="sname">Second Name</label>
-                <input type="text" id="sname" name="secondname">
-            </div>
-            <div>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="mail" required>
-            </div>
-            <div>
-                <label for="pnumber">Phone Number</label>
-                <input type="tel" id="pnumber" name="number">
-            </div>
-            <div>
-                <label for="message">Message</label>
-                <textarea name="text" id="message" placeholder="Write something"></textarea>
-            </div>
-            <button id="formsubmit" onclick="submitted()">SUBMIT</button>
-        </form>
-    </div>
 
-    <div class="ffrm2">
-        <form id="form" action="https://formspree.io/f/xrblyeba" method="post">
-            <legend id="legend">Contact Us</legend>
-            <div class="name">
+    
+        <div class="ffrm">
+            <form id="form" action="https://formspree.io/f/xrblyeba" method="post">
+                <legend>Contact Us</legend>
                 <div>
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname">
@@ -116,23 +92,55 @@
                     <label for="sname">Second Name</label>
                     <input type="text" id="sname" name="secondname">
                 </div>
-            </div>
-            <div>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="mail" required>
-            </div>
-            <div>
-                <label for="pnumber">Phone Number</label>
-                <input type="tel" id="pnumber" name="number">
-            </div>
-            <div>
-                <label for="message">Message</label>
-                <textarea name="text" id="message" placeholder="Write something"></textarea>
-            </div>
-            <button id="formsubmit" onclick="submitted()">SUBMIT</button>
-        </form>
-        
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="mail" required>
+                </div>
+                <div>
+                    <label for="pnumber">Phone Number</label>
+                    <input type="tel" id="pnumber" name="number">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="text" id="message" placeholder="Write something"></textarea>
+                </div>
+                <button id="formsubmit" onclick="submitted()">SUBMIT</button>
+            </form>
+        </div>
+
+        <div class="ffrm2">
+            <form id="form" action="https://formspree.io/f/xrblyeba" method="post">
+                <legend id="legend">Contact Us</legend>
+                <div class="name">
+                    <div>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname">
+                    </div>
+                    <div>
+                        <label for="sname">Second Name</label>
+                        <input type="text" id="sname" name="secondname">
+                    </div>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="mail" required>
+                </div>
+                <div>
+                    <label for="pnumber">Phone Number</label>
+                    <input type="tel" id="pnumber" name="number">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="text" id="message" placeholder="Write something"></textarea>
+                </div>
+                <button id="formsubmit" onclick="submitted()">SUBMIT</button>
+            </form>
+            
+        </div>
     </div>
+</div>
+    
+    
 
 <footer>
     <div class="socials">
@@ -144,7 +152,7 @@
         <svg class="icon icon-fb" id="facebook"><use xlink:href="#fb"></use></svg>
     </div>
     <div class="copy">
-    <p>Copyright &copy; 2025 www.lakesidetech.com Website Created by Collins Ndinya</p>
+    <p id="Copyright">Copyright &copy; 2025 www.lakesidetech.com Website Created by Collins Ndinya</p>
     </div>
 </footer>
 </div>

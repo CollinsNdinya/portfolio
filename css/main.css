@@ -18,9 +18,12 @@ html, body, div, section, h2, p,legend, input, textarea, section , fieldset, sec
 }
 
 /*header section*/
-
 .topnav {
     display: none;
+}
+
+.nav li {
+  list-style: none;
 }
 
 html {
@@ -28,8 +31,6 @@ html {
 }
 
 body {
-    /* height: 100vh; */
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -100,13 +101,10 @@ ul a {
 
 ul a:hover {
     color: #104fc5;
+    transition: all 0.3s ease;
     border-radius: 5px;
 }
-
-.nav  {
-    list-style: none;
-}
-
+        
 .nav {
     /* width: 100%; */
     display: flex;
@@ -128,8 +126,10 @@ ul a:hover {
     :hover {
         fill: blue;
         cursor: pointer;
+        transition: all 0.3s ease;
     }
 }
+
 
 .about {
     align-self: center;
@@ -142,7 +142,6 @@ ul a:hover {
 }
 
 /* hero section*/
-
 .hero {
   min-height: 100vh;
   /* background: linear-gradient(135deg, #020617, #0f172a); */
@@ -298,7 +297,7 @@ ul a:hover {
     flex-direction: column;
     align-items: center;
     max-width: 80vw;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .our_services {
@@ -337,8 +336,8 @@ h3 {
     /* border: 2px solid rgb(202, 208, 210); */
     border-radius: 16px;
 
-    width: 25%;
-    height: 35vh;
+    width: 30%;
+    height: 40vh;
 
     margin-right: 2rem;
     margin-top: 2rem;
@@ -363,13 +362,13 @@ bullets */
 
 .service-list li {
   margin: 0.25rem 0;
-  font-size: 0.65rem;
+  font-size: 0.95rem;
   color: #d1d5db;
 } 
 
 .service-desc {
   color: #d1d5db;
-  font-size: 0.675rem;
+  font-size: 0.85rem;
   margin: 0 0.9rem 0;
   line-height: 1.45;
 }
@@ -455,7 +454,11 @@ footer {
 }
 
 .copy p {
-    color: var(--surface);
+  color: var(--surface);
+}
+
+#Copyright {
+    text-align: center;
 }
 
 

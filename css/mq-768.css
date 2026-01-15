@@ -74,11 +74,15 @@
         width: 4.5rem;
         height: 5.5rem;
         margin-right: 2rem;
-        fill: black;
+        fill: var(--card-bg);
         /* border: 2px solid red; */
         :hover {
             fill: #999;
         }
+    }
+
+    .mockup-card {
+        display: none;
     }
 
     #formsubmit {

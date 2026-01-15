@@ -1,4 +1,3 @@
-
 html {
     color: #28282B;
     font-size: 1.25vw;
@@ -9,9 +8,16 @@ html {
     justify-content: center;
 }
 
+.contactbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contact {
     margin-left: .2rem;
-    /* border: 3px solid red; */
+    max-width: 40vw;
+    /* border: 3px solid yellow; */
 }
 
 .contactinfo {
@@ -24,7 +30,7 @@ html {
 
 #contactinfo {
     font-size: 4rem;
-    color: brown;
+    color: var(--card-bg)
 }
 
 .icon-email {
@@ -34,6 +40,7 @@ html {
 
     display: flex;
     align-items: center;
+    
 }
 
 .icon-phone {
@@ -48,6 +55,7 @@ html {
 }
 
 #gmail {
+    color: var(--card-bg);
     width: 80%;
     font-size: .85rem;
     padding: 2rem;
@@ -58,6 +66,7 @@ html {
     width: 36%;
     font-size: .85rem;
     padding: 2rem;
+    color: var(--card-bg);
 }
 
 .mailinfo {
@@ -79,19 +88,23 @@ html {
 
 
 .s-icon {
-    fill: #28282B;
+    fill: var(--card-bg)
 }
 
 .ffrm {
+    max-width: 40vw;
+
     display: flex;
     justify-content: center;
     align-items: center;
     /* border-radius: 6px; */
+    /* border: 2px solid white; */
 }
 
 form {
     /* border: 1px solid #999; */
     min-width: 25rem;
+    
 
     display: flex;
     flex-direction: column;
@@ -100,6 +113,7 @@ form {
     border-radius: 6px;
     border: 1px solid #fff;
     box-shadow: 0px 10px 20px -18px;
+    /* border: 2px solid red; */
 }
 
 legend {
@@ -131,6 +145,7 @@ input {
 }
 
 label {
+    color: var(--card-bg);
     font-size: .8rem;
     font-weight: 700;
     font-style: italic;
@@ -177,6 +192,7 @@ textarea {
 }
 
 #formsubmit:hover {
+    transition: all 0.3s ease;
     background-color: #D3D3D3;
 }
 
