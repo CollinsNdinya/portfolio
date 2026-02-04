@@ -1,0 +1,23 @@
+@media (min-width: 1440px) {
+    body {
+        max-width: 1900px;
+    }
+
+    .Top h3 {
+        font-size: 1.5rem;
+    }
+
+   .service-desc {
+        font-size: 1.05rem;
+    } 
+
+    .service-list li {
+        font-size: 1.05rem;
+    }
+
+    .cards {
+      height: 415px;
+    } 
+
+    
+}

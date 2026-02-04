@@ -1,0 +1,64 @@
+@media (min-width: 1201px) {
+  .cards {
+    width: 450px;
+    height: 400px;
+    overflow:visible;
+    /* height: 45vh; */
+  }
+
+  /* .Top h3 {
+    font-size: 1.5rem;
+  }
+
+  .service-desc {
+    font-size: 1.5rem;
+  } 
+
+  .service-list li {
+    font-size: 1.5rem;
+  } */
+
+  /* about page */
+  .about {
+    height: 87vh;
+  }
+
+  /* services page */
+  .our-servicespage {
+    margin-bottom: 3rem;
+  }
+  
+  .our-services {
+    margin-bottom: 2rem;
+  }
+
+  /* contact page */
+  #contactinfo {
+    font-size: 2rem;
+  }
+
+  .contactbody {
+    height: 72vh;
+  }
+
+  input {
+    height: 2rem;
+  }
+
+  label {
+    padding: .25rem 0 ;
+  }
+
+  #formsubmit {
+    width: 5rem;
+    height: 2rem;
+
+    font-size: .5rem;
+
+    display: inline-block;
+
+    margin-top: 1rem;
+  }
+
+}
+

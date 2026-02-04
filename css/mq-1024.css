@@ -1,0 +1,172 @@
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    html {
+        color: #28282B;
+        font-size: 1.2vw;
+    }
+
+    header {
+        /* padding: 0; */
+        height: 120px;
+
+    }
+
+    #atf {
+        display: flex ;
+        flex-direction: column;
+        /* justify-content: center;  */
+        /* border: 2px solid red; */
+    }
+
+
+    #logo {
+        margin-left: 1rem;
+    }
+
+    ul a {
+        font-size: 1.9rem;
+        font-weight: 100;
+    }
+
+    /* Hero section */
+
+    .hero-content h1 {
+        font-size: 6.5rem;
+        text-align: center;
+    }
+ 
+    .hero-content p {
+        font-size: 3.5rem;
+        max-width: 100%;
+        text-align: center;
+    } 
+
+    .hero-actions {
+        justify-content: center;
+    } 
+
+    .btn.primary {
+        font-size: 3.5rem;
+    } 
+
+    .btn.secondary {
+        font-size: 3.5rem;
+    }
+
+    .hero-visual {
+        /* margin-right: 15rem; */
+        margin: 0 auto;
+    }
+
+    .our_services, .why-container h2 {
+        font-size: 4rem;
+    } 
+
+    .services-sub {
+        font-size: 4rem;
+    }
+
+    .cards {
+        width: 500px;
+        padding: 1rem;
+    }
+    
+    .Top h3 {
+        font-size: 3.5rem;
+    }
+
+    .service-desc {
+        font-size: 3.5rem;
+    } 
+
+    .service-list li {
+        font-size: 3.5rem;
+        padding-top: 1rem;
+
+    }
+
+    .why-intro {
+        font-size: 3rem;
+    } 
+
+    .why-card h3 {
+        font-size: 2.5rem;
+    }
+
+    .why-card p {
+        font-size: 2.5rem;
+    }
+
+
+    /* About Page */
+
+    .about {
+        height: 87vh;
+    }
+
+    #about {
+        font-size: 5rem;
+    }
+
+    .about P {
+        font-size: 3rem;
+    }
+
+
+    /* Services Section */
+
+
+    /* contact page */
+
+    .contact {
+        align-self: flex-start;
+        width: 90vw;
+        /* border: 2px solid red; */
+    }
+
+    #gmail, #number {
+        font-size: 4rem;
+        font-weight: 100;
+    }
+
+    .contactbody {
+        flex-direction: column;
+    }
+
+    form {
+        width: 80vw;
+        margin: 4rem 0;
+    }
+
+
+    label {
+        font-size: 3rem;
+        padding: 2rem 0;
+    }
+
+    legend {
+        font-size: 5rem;
+        margin-top: .1rem;
+    }
+
+    input[type="text"],input[type="email"],input[type="tel"], textarea {
+        width: 100%;
+    }
+
+    input[type="text"],input[type="email"],input[type="tel"] {
+        height: 7vh;
+    }
+
+    textarea {
+        height: 10vh;
+    }
+
+    footer {
+        height: 13vh;
+    }
+
+    #Copyright {
+        font-size: 2.5rem;
+    }
+}
+
+

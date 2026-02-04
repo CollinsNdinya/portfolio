@@ -4,21 +4,21 @@
     /* margin-top: 40vh; */
 }
 
-.serv {
-    width: 70%;
+.our-servicespage {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#services {
-    font-size: 4rem;
-}
-
 .our-services h3 {
     font-size: 2rem;
     margin-bottom: .2rem ;
+}
+
+
+.our-services p {
+    color: var(--card-bg);
 }
 
 .Top h3 {
@@ -31,22 +31,4 @@
     font-size: 1rem;
 }
 
-#cta {
-    color: black;
-    background-color: lightskyblue;
-
-    text-decoration: none;
-
-    padding: .5em 1em;
-    margin-bottom: 4rem;
-    
-    font-weight: bolder;
-    border-radius: 6px;
-    font-size: .7rem;
-}
-
-#cta:hover {
-    background-color: cornflowerblue;
-    transition-duration: 2s;
-}
 

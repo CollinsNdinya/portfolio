@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="sections/section-styling/contact.css">
-    <link rel="stylesheet" href="css/mq-480.css" media="(max-width:480px)">
+    <link rel="stylesheet" href="css/mq-1440.css">
+    <link rel="stylesheet" href="css/mq-1201.css">
+    <link rel="stylesheet" href="css/mq-1025.css">
+    <link rel="stylesheet" href="css/mq-1024.css">
     <link rel="stylesheet" href="css/mq-768.css"> 
-    <link rel="stylesheet" href="css/mq-1279.css">
-    <link rel="stylesheet" href="css/mq-1280.css">
+    <link rel="stylesheet" href="css/mq-480.css" media="(max-width:480px)">
+    <link rel="stylesheet" href="css/mq-320.css" media="(max-width:320px)">
     <title>portfolio</title>
 </head>
 <body>
@@ -47,7 +50,7 @@
         <ul class="nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="about.html">Services</a></li>
+            <li><a href="services.html">Services</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -71,7 +74,7 @@
                 <h2 id="contactinfo">Contact Info</h2>
                 <div class="mailinfo">
                     <svg class="s-icon icon-email"><use xlink:href="#mail"></use></svg>
-                    <h6 id="gmail">collinsonyango635@gmail.com</h6>
+                    <h6 id="gmail">lakesidetech@gmail.com</h6>
                 </div>
                 <div class="phonenoinfo">
                     <svg class="s-icon icon-phone"><use xlink:href="#phone"></use></svg>
@@ -81,7 +84,7 @@
         </div>
 
     
-        <div class="ffrm">
+        <div class="contactform">
             <form id="form" action="https://formspree.io/f/xrblyeba" method="post">
                 <legend>Contact Us</legend>
                 <div>
@@ -106,36 +109,6 @@
                 </div>
                 <button id="formsubmit" onclick="submitted()">SUBMIT</button>
             </form>
-        </div>
-
-        <div class="ffrm2">
-            <form id="form" action="https://formspree.io/f/xrblyeba" method="post">
-                <legend id="legend">Contact Us</legend>
-                <div class="name">
-                    <div>
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname">
-                    </div>
-                    <div>
-                        <label for="sname">Second Name</label>
-                        <input type="text" id="sname" name="secondname">
-                    </div>
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="mail" required>
-                </div>
-                <div>
-                    <label for="pnumber">Phone Number</label>
-                    <input type="tel" id="pnumber" name="number">
-                </div>
-                <div>
-                    <label for="message">Message</label>
-                    <textarea name="text" id="message" placeholder="Write something"></textarea>
-                </div>
-                <button id="formsubmit" onclick="submitted()">SUBMIT</button>
-            </form>
-            
         </div>
     </div>
 </div>

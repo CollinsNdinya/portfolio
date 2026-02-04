@@ -5,7 +5,9 @@ html {
 
 #atf {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .contactbody {
@@ -29,7 +31,7 @@ html {
 }
 
 #contactinfo {
-    font-size: 4rem;
+    font-size: 5rem;
     color: var(--card-bg)
 }
 
@@ -91,8 +93,8 @@ html {
     fill: var(--card-bg)
 }
 
-.ffrm {
-    max-width: 40vw;
+.contactform {
+    /* max-width: 40vw; */
 
     display: flex;
     justify-content: center;
@@ -191,7 +193,28 @@ textarea {
     align-items: center;
 }
 
+#formsubmit {
+  width: 20rem;
+  height: 8rem;
+
+  font-size: 3rem;
+  text-decoration: none;
+  font-weight: 100;
+  color: var(--surface);
+
+  display: inline-block;
+    
+  padding: 0.6rem 1rem;
+  margin-top: 3rem;
+    
+  border-radius: 8px;
+  background: var(--cta-bg);
+  box-shadow: 0 6px 18px rgba(255,0,33,0.14);
+  transition: transform .18s, box-shadow .18s, opacity .18s;
+}
+
 #formsubmit:hover {
+    color: black;
     transition: all 0.3s ease;
     background-color: #D3D3D3;
 }

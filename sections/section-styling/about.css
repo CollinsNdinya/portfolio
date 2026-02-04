@@ -1,16 +1,18 @@
 
 #atf {
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 } 
 
 .about {
     max-width: 80%;
+    /* height: 80vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
-    /* border: 2px solid red; */
 }
 
 #about {
@@ -20,4 +22,5 @@
 
 .about p {
     font-size: 1.5rem;
+    font-weight: 100;
 }

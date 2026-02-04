@@ -1,0 +1,141 @@
+@media only screen and (min-width: 1025px) and (max-width: 1200px)  {
+    #atf {
+        /* height: 95vh; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+        
+    .homepage {
+        max-width: 80%;
+        flex-direction: column;
+    }
+
+    .hero-container {
+        max-width: 1400px;
+    }
+
+    /* Hero section */
+    
+    .hero-content h1 {
+        font-size: 3.25rem;
+    }
+
+    .hero-content p {
+        font-size: 2.25rem;
+    }
+
+    .btn.primary {
+        font-size: 1.5rem;
+    }
+
+    .btn.secondary {
+        font-size: 1.5rem;
+    }
+
+    .cards {
+        max-width: 500px;
+        max-height: 400px;
+        min-width: 500px ;
+        /* min-height: 500px; */
+    }
+
+    .Top h3 {
+        font-size: 2.5rem;
+    }
+
+    .service-desc {
+        font-size: 1.5rem;
+    } 
+
+    .service-list li {
+        font-size: 1.5rem;
+    }
+
+    .why-intro {
+        font-size: 1.5rem;
+    } 
+
+    .why-card p {
+        font-size: 1.5rem;
+    }
+
+    /* About Page */
+    .about {
+        height: 70vh;
+    }
+
+    /* Contact Page */
+
+    .contact {
+        /* max-width: 100vw; */
+        min-height: 70vh;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .contactpage {
+        display: flex;
+    }
+
+    .contactinfo {
+        justify-content: center;
+        /* border: 2px solid red; */
+    }
+
+    #contactinfo {
+        font-size: 2.5rem;
+        justify-content: flex-start;
+    }
+
+    #gmail, #number {
+        font-size: 2rem;
+    }
+
+    form {
+        min-width: 30rem;
+    }
+
+    label, legend {
+        font-size: 1.5rem;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], textarea {
+        width: 100%;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"] {
+        height: 2.5rem;
+    }
+
+    #message{
+        height: 5rem;
+    }
+
+    input {
+        width: 100%;
+        height: 2.3rem;
+    }
+
+    textarea {
+        height: 4rem;
+    }
+
+    input[type="submit"]{
+        padding: .25rem .5rem;
+        padding: 0rem .5rem;
+    }
+
+    #formsubmit {
+        width: 7rem;
+        height: 3rem;
+
+        font-size: 1.25rem;
+
+        display: inline-block;
+
+        margin-top: 1rem;
+    }
+
+}

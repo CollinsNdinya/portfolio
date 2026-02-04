@@ -1,16 +1,82 @@
-html {
-  font-size: 100%;
-}
-
 header {
   height: 70px;
 }
 
-#homepage-atf {
-  height: 100vh; 
+.nav a {
+  display: none;
 }
 
+.topnav {
+  display: flex;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bolder;
+  /* border: 2px solid red; */
+}
+
+.mobilenavs {
+  position: fixed;
+  right: -120rem;
+  width: 100%;
+  
+  margin-top: 6rem;
+  
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: .9s;
+  /* border: 2px solid blue; */
+
+  background-color: var(--muted);
+
+  
+  :hover {
+    background-color: #e7e6e6;
+    /* background-color: red; */
+  }
+}
+
+.mobilenavs a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-size: 4rem;
+  font-weight: bolder;
+  
+  padding: 1rem;
+  margin-bottom: 6rem;
+
+   /* border: 2px solid blue; */
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type=""] {
+  display: block;
+}
+
+.icon-menu {
+  width: 4.5rem;
+  height: 5.5rem;
+  margin-right: 2rem;
+  fill: var(--card-bg);
+  /* border: 2px solid red; */
+  :hover {
+    fill: #999;
+  }
+}
+
+input[type="checkbox"]:checked + .mobilenavs {
+  /* toggle */
+  right: 0rem;
+}
+
+
 /* Hero section */
+
 .hero-content h1 {
   font-size: 8rem;
 }
@@ -27,9 +93,8 @@ header {
   font-size: 4rem;
 }
 
-.mockup-card.small {
-  margin-right: 0rem;
-  /* border: 2px solid red; */
+.mockup-card {
+  display: none;
 }
 
 .hero-actions {
@@ -45,7 +110,6 @@ header {
   font-size: clamp(1rem, 2vw, 1.1rem);
 }
 
-
 #cards {
   z-index: -99999;
   display: flex;
@@ -55,12 +119,13 @@ header {
 
 }
 
-.cards {
-  width: 90%;
-}
-
 .our_services, .why-container h2 {
   font-size: 5rem;
+}
+
+.cards {
+  width: 80%;
+  padding: 2rem;
 }
 
 .our-services {
@@ -68,16 +133,20 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
 
-.Top p {
-  font-size: 4rem;
-  margin-left: 6rem;
+}     
+
+.services-sub {
+  width:90vw;
+  font-size: 3rem;
 }
 
 .Top h3 {
   font-size: 6rem;
-  margin-left: 4rem;
+}
+
+.Top p {
+  font-size: 4rem;
 }
 
 .service-desc {
@@ -101,22 +170,23 @@ header {
 }
 
 /* About */
-.atf {
-  border: 2px solid red;
+
+#about  {
+  font-size: 7rem;
 }
 
-.about {
-  margin-top: 25rem;
+.about p {
+  font-size: 5.5rem;
+  letter-spacing: .125rem;
 }
 
-footer {
-  /* border: 2px solid red; */
-  height: 24vh;
+.socials {
+  max-width: 50%;
 }
 
 /* services */
 .our-services {
-  margin-top: 20rem;
+  margin-top: 10rem;
 }
 
 .our-services h3 {
@@ -125,32 +195,69 @@ footer {
 
 .services-sub {
   font-size: 4rem;
-  text-align: center;
 }
+
 
 .cards {
   margin-bottom: 5rem;
 }
 
-/* form */
-
+/* contact page */
 .contactbody{
   display: flex;
   flex-direction: column;
-
-  margin-top: 20rem;
 }
 
-
-input[type="text"]{
-  max-width: 40vw;
+.contact {
+  margin: 0;
+  max-width: 95vw;
+  margin-bottom: 10rem;
 }
+
+#gmail {
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+#number {
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+form {
+  width: 90vw;
+  padding: 2rem;
+}
+
+legend {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+label {
+  font-size: 3.5rem;
+  font-weight: 200;
+  padding: 2rem 0;
+  
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+  height: 5vh;
+} 
 
 textarea {
-  min-height: 8vh;
+  min-height: 10vh;
+}
+
+#formsubmit:hover {
+  transition: all 0.3s ease;
+  background-color: #D3D3D3;
 }
 
 #Copyright {
   font-size: 3.5rem;
 }
 
+footer {
+  height: 24vh;
+}
