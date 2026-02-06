@@ -2,8 +2,32 @@
     padding-top: 24rem;
 }
 
+.cards {
+    width: 95vw;
+    padding: 4rem;
+}
+
+.services-sub {
+    font-size: 5rem;
+    width: 95vw;
+    font-weight: normal;
+}
+
+.Top p {
+  font-size: 5rem;
+}
+
+
+.service-list li {
+    font-size: 4.5rem;
+}
+
+
 .about {
     margin-top: 7rem;
 } 
 
 
+input[type="text"], input[type="email"], input[type="tel"] {
+    height:  7vh;
+}

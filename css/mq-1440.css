@@ -3,6 +3,11 @@
         max-width: 1900px;
     }
 
+    .contactbody {
+        padding: 5.5rem 0;
+    }
+
+
     .Top h3 {
         font-size: 1.5rem;
     }
@@ -16,8 +21,36 @@
     }
 
     .cards {
-      height: 415px;
+        width: 450px;
+        height: 415px;
     } 
+
+    .about {
+        height: 75vh;
+    }
+
+    #contactinfo {
+        font-size: 2rem;
+    }
+
+    form {
+        min-width: 25vw;
+    }
+
+    label {
+        padding: .5rem 0;
+    }
+
+    #formsubmit {
+        width: 5rem;
+        height: 2rem;
+
+        font-size: .5rem;
+
+        display: inline-block;
+
+        margin-top: 1rem;
+    }
 
     
 }

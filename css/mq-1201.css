@@ -1,4 +1,4 @@
-@media (min-width: 1201px) {
+@media only screen and  (min-width: 1201px) and (max-width: 1339px) {
   .cards {
     width: 450px;
     height: 400px;
@@ -6,7 +6,7 @@
     /* height: 45vh; */
   }
 
-  /* .Top h3 {
+  .Top h3 {
     font-size: 1.5rem;
   }
 
@@ -16,7 +16,7 @@
 
   .service-list li {
     font-size: 1.5rem;
-  } */
+  } 
 
   /* about page */
   .about {

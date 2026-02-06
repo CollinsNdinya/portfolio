@@ -9,6 +9,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding: 1rem;
 }
 
 .our-services h3 {
@@ -30,5 +32,6 @@
     list-style: square;
     font-size: 1rem;
 }
+
 
 

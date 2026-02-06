@@ -62,16 +62,17 @@
     } 
 
     .services-sub {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .cards {
-        width: 500px;
-        padding: 1rem;
+        width: 80vw;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
     }
     
     .Top h3 {
-        font-size: 3.5rem;
+        font-size: 4.5rem;
     }
 
     .service-desc {
@@ -118,9 +119,9 @@
     /* contact page */
 
     .contact {
-        align-self: flex-start;
-        width: 90vw;
-        /* border: 2px solid red; */
+        /* width: 100vw; */
+        display: flex;
+        justify-content: center;
     }
 
     #gmail, #number {
@@ -130,6 +131,7 @@
 
     .contactbody {
         flex-direction: column;
+        align-items: center;
     }
 
     form {
@@ -153,7 +155,7 @@
     }
 
     input[type="text"],input[type="email"],input[type="tel"] {
-        height: 7vh;
+        height: 5vh;
     }
 
     textarea {
@@ -164,8 +166,21 @@
         height: 13vh;
     }
 
+    .socials {
+        max-width: 50%;
+    }
+
+    .icon {
+        margin-right: 4rem;
+    }
+
     #Copyright {
         font-size: 2.5rem;
+    }
+
+    #formsubmit {
+        height: 6rem;
+        width: 14rem;
     }
 }
 
