@@ -26,10 +26,10 @@
 
     .mobilenavs {
         position: fixed;
-        right: -120rem;
+        right: -120%;
         width: 100%;
         
-        margin-top: 6rem;
+        margin-top: 10rem;
         
         transition-property: all;
         transition-timing-function: ease;
@@ -63,11 +63,12 @@
         display: none;
     }
 
-    input[type=""] {
-        display: block;
+    .icon-close {
+        display: none;
     }
 
-    .icon-menu {
+
+    .icon-open {
         width: 4.5rem;
         height: 5.5rem;
         margin-right: 2rem;
@@ -78,10 +79,25 @@
         }
     }
 
-    input[type="checkbox"]:checked + .mobilenavs {
-    /* toggle */
-        right: 0rem;
+    .icon-close {
+        width: 6rem;
+        height: 10rem;
+        fill: var(--card-bg);
     }
+
+    .menu-toggle:checked ~ .menu-btn .icon-open {
+        display: none;
+    }
+
+    .menu-toggle:checked ~ .menu-btn .icon-close {
+        display: block;
+    }
+
+    .menu-toggle:checked ~ .mobilenavs {
+        right: 0;
+    }
+
+
 
     /* Hero section */
 
@@ -152,6 +168,10 @@
         font-size: 7.5rem;
         letter-spacing: .5rem;
         padding: 2rem 0;
+    }
+
+    .services-sub {
+        font-size: 3.5rem;
     }
 
     .Top h3 {

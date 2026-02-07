@@ -37,10 +37,13 @@
             <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/>
         </symbol>
         <symbol id="phone-menu" viewBox="0 0 448 512" >
-        <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 
-        0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 
-        0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7
-         0 32 14.3 32 32z"/>
+            <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 
+                0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 
+                0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7
+                0 32 14.3 32 32z"/>
+        </symbol>
+        <symbol id="phone-menu-onclick" viewBox="0 -960 960 960">
+            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
         </symbol>
     </svg>
 
@@ -56,8 +59,15 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
         <div class="topnav" id="myTopnav">
-                <label for="show-menu"> <svg class="icon icon-menu"><use xlink:href="#phone-menu"></use></svg></label> 
-                <input type="checkbox" id="show-menu" class="show-menu">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+          <label for="menu-toggle" class="menu-btn"> 
+            <svg class="icon icon-open">
+              <use xlink:href="#phone-menu"></use>
+            </svg> 
+            <svg class="icon icon-close">
+              <use xlink:href="#phone-menu-onclick"></use></svg> 
+          </label>
                 <ul class="mobilenavs">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>

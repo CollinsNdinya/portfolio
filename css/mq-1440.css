@@ -7,15 +7,17 @@
         padding: 5.5rem 0;
     }
 
-
     .Top h3 {
         font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.25rem;
     }
 
    .service-desc {
         font-size: 1.05rem;
     } 
-
     .service-list li {
         font-size: 1.05rem;
     }
