@@ -18,8 +18,9 @@
     .topnav {
         display: flex;
         margin-right: 1rem;
-        font-size: 1.5rem;
         color: black;
+
+        font-size: 1.5rem;
         font-weight: bolder;
     /* border: 2px solid red; */
     }
@@ -109,7 +110,6 @@
         font-size: clamp(8rem, 6rem, 3rem);
         line-height: 1.1;
         letter-spacing: .2rem;
-
     }
 
     .hero-content p {
@@ -158,10 +158,11 @@
     }
     
     .our-services p {
-        font-size: 3.5rem;
+        font-size: 4.5rem;
         letter-spacing: .2rem;
-        line-height: 4rem;
+        line-height: 1.25;
         max-width: 90%;
+        font-weight: 300;
     }
     
     .our_services {
@@ -175,17 +176,20 @@
     }
 
     .Top h3 {
-        font-size: 4rem;
+        font-size: 5rem;
         margin-bottom: 2rem;
     }
 
     .Top p {
-        font-size: 3.5rem;
+        font-size: 4rem;
         margin-bottom: 2rem;
+
+        line-height: 1.25;
     }
 
     .service-list li {
-        font-size: 3.5rem;
+        font-size: 4rem;
+        line-height: 1.5;
     }
 
     .herosection {
@@ -214,7 +218,7 @@
     }
 
     .why-card p {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 
     /* About Page */
@@ -278,7 +282,6 @@
         flex-direction: column;
 
         margin-top: 5rem;
-
     }
 
     form {
@@ -293,23 +296,20 @@
     #legend {
         font-size: 2vh;
         font-weight: bold;
+
         color : blue;
     }
 
     .contactform {
-        /* width: 90vw; */
-        /* height: 48.5vh; */
         justify-content:space-between;
     }
 
     label, legend {
         font-size: 3rem;
-
     }
 
     label {
         padding: 1rem 0;
-
     }
 
     legend {

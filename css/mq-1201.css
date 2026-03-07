@@ -10,6 +10,7 @@
   .cards {
     width: 450px;
     height: 400px;
+    
     overflow:visible;
     /* height: 45vh; */
   }
