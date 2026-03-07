@@ -1,5 +1,6 @@
 header {
   height: 70px;
+  margin-bottom: 5rem;
 }
 
 .nav a {
@@ -91,8 +92,6 @@ input[type="checkbox"] {
 }
 
 
-
-
 /* Hero section */
 
 .hero-content h1 {
@@ -151,7 +150,6 @@ input[type="checkbox"] {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }     
 
 .services-sub {
@@ -189,6 +187,10 @@ input[type="checkbox"] {
 
 /* About */
 
+.about {
+  max-width: 95%;
+}
+
 #about  {
   font-size: 7rem;
 }
@@ -196,6 +198,9 @@ input[type="checkbox"] {
 .about p {
   font-size: 5.5rem;
   letter-spacing: .125rem;
+  text-align: left;
+  line-height: 1.6;
+  padding: 0 15px;
 }
 
 .socials {
@@ -264,7 +269,7 @@ input[type="text"], input[type="email"], input[type="tel"] {
 } 
 
 textarea {
-  min-height: 10vh;
+  min-height: 12vh;
 }
 
 #formsubmit:hover {

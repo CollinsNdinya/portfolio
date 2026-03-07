@@ -1,5 +1,4 @@
 html {
-    color: #28282B;
     font-size: 1.25vw;
 }
 
@@ -18,7 +17,7 @@ html {
 
 .contact {
     margin-left: .2rem;
-    max-width: 40vw;
+    max-width: 90vw;
     /* border: 3px solid yellow; */
 }
 

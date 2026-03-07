@@ -102,6 +102,13 @@
 
     /* Hero section */
 
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Switch to left-aligned for a modern look */
+        padding: 60px 24px;
+    }
+
     .hero-container {
         justify-content: center;
     }
@@ -161,18 +168,20 @@
         font-size: 4.5rem;
         letter-spacing: .2rem;
         line-height: 1.25;
-        max-width: 90%;
-        font-weight: 300;
+        max-width: 95%;
+        font-weight: 350;
     }
     
     .our_services {
         font-size: 7.5rem;
-        letter-spacing: .5rem;
+        letter-spacing: .7rem;
         padding: 2rem 0;
     }
 
     .services-sub {
         font-size: 3.5rem;
+        font-weight: 350;
+        text-align: center;
     }
 
     .Top h3 {
@@ -230,12 +239,12 @@
     }
 
     #about {
-        font-size: 5rem;
+        font-size: 6rem;
     }
 
     .about p {
-        font-size: 3rem;
-        font-weight: 100;
+        font-size: 4rem;
+        font-weight: 300;
     }
 
     /* contact page */
@@ -287,10 +296,14 @@
     form {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items:flex-start;
         
         width: 90vw;
         /* border: 2px solid green; */
+    }
+
+    form div {
+        padding-top: 3.5rem;
     }
     
     #legend {
@@ -318,7 +331,7 @@
     }
 
     input[type="text"], input[type="email"], input[type="tel"] {
-        height: 8vh;
+        height: 4vh;
         width: 80vw;
     }
 

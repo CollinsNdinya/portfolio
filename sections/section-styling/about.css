@@ -18,9 +18,14 @@
 #about {
     font-size: 3rem;
     color: var(--card-bg);
+    text-align: center;
 }
 
 .about p {
     font-size: 1.5rem;
-    font-weight: 100;
+    font-weight: 400;
+
+    text-align: left; 
+    line-height: 1.6;
+    margin-bottom: 20px;
 }

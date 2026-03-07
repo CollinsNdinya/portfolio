@@ -7,6 +7,7 @@
     header {
         /* padding: 0; */
         height: 120px;
+        width: fit-content;
 
     }
 
@@ -76,11 +77,11 @@
     }
 
     .service-desc {
-        font-size: 3.5rem;
+        font-size: 3.25rem;
     } 
 
     .service-list li {
-        font-size: 3.5rem;
+        font-size: 3.25rem;
         padding-top: 1rem;
 
     }
@@ -90,19 +91,15 @@
     } 
 
     .why-card h3 {
-        font-size: 2.5rem;
+        font-size: 2.75rem;
     }
 
     .why-card p {
-        font-size: 2.5rem;
+        font-size: 2.75rem;
     }
 
 
     /* About Page */
-
-    .about {
-        height: 87vh;
-    }
 
     #about {
         font-size: 5rem;
